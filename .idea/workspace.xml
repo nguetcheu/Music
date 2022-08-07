@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3f93e5-8f95-4e3c-b313-d918fa39d1e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/music.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite-jdbc-3.39.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/dominique/model/Datasource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/dominique/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/dominique/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/dominique/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +37,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/nguet/Documents/Tuto personnel/Music/sqlite-jdbc-3.39.2.0.jar",
     "project.structure.last.edited": "Libraries",
@@ -43,6 +50,26 @@
       <recent name="C:\Users\nguet\Documents\Tuto personnel\Music\src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.dominique.Main" />
+      <module name="Music" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.dominique.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,8 +78,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659869984266</updated>
-      <workItem from="1659869986461" duration="734000" />
+      <workItem from="1659869986461" duration="2390000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout de la librairie sqlite jdbc">
+      <created>1659870758328</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659870758328</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Ajout de la librairie sqlite jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la librairie sqlite jdbc" />
   </component>
 </project>
