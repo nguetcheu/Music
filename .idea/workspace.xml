@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3f93e5-8f95-4e3c-b313-d918fa39d1e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/academy/dominique/model/SongArtist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/dominique/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/dominique/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/dominique/model/Datasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/dominique/model/Datasource.java" afterDir="false" />
@@ -79,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659869984266</updated>
       <workItem from="1659869986461" duration="6808000" />
-      <workItem from="1659897950139" duration="2971000" />
+      <workItem from="1659897950139" duration="5766000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la librairie sqlite jdbc">
       <created>1659870758328</created>
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659875858474</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementation de la metode de recherche version 1">
+      <created>1659901122181</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659901122181</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,7 @@
     <MESSAGE value="Ajout de la librairie sqlite jdbc" />
     <MESSAGE value="Mise en place de la classe Datasource.java qui comprend les methodes de gestion de la bd" />
     <MESSAGE value="Datasource.java, mise en place de la methode d'affichage de la liste artiste et ajout de la metho e.printStackTrace() pour simplifier le débogage." />
-    <option name="LAST_COMMIT_MESSAGE" value="Datasource.java, mise en place de la methode d'affichage de la liste artiste et ajout de la metho e.printStackTrace() pour simplifier le débogage." />
+    <MESSAGE value="Implementation de la metode de recherche version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation de la metode de recherche version 1" />
   </component>
 </project>
