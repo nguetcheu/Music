@@ -1,15 +1,28 @@
 package academy.dominique;
 
+import academy.dominique.model.Artist;
 import academy.dominique.model.Datasource;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Datasource db = new Datasource();
-
-        if (!db.open()){
+        Datasource datasource = new Datasource();
+        if(!datasource.open()) {
             System.out.println("Can't open datasource");
             return;
         }
-        db.close();
+
+        List<Artist> artists = datasource.queryArtists();
+        if(artists == null) {
+            System.out.println("No artists!");
+            return;
+        }
+
+        for(Artist artist : artists) {
+            System.out.println("ID = " + artist.getId() + ", Name = " + artist.getName());
+        }
+
+        datasource.close();
     }
 }
