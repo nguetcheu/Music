@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3f93e5-8f95-4e3c-b313-d918fa39d1e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/dominique/model/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/dominique/model/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/dominique/model/Song.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/dominique/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/dominique/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/dominique/model/Datasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/dominique/model/Datasource.java" afterDir="false" />
@@ -35,19 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/nguet/Documents/Tuto personnel/Music/sqlite-jdbc-3.39.2.0.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nguet/Documents/Tuto personnel/Music/sqlite-jdbc-3.39.2.0.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nguet\Documents\Tuto personnel\Music\src" />
@@ -81,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659869984266</updated>
-      <workItem from="1659869986461" duration="5606000" />
+      <workItem from="1659869986461" duration="6808000" />
+      <workItem from="1659897950139" duration="2971000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la librairie sqlite jdbc">
       <created>1659870758328</created>
@@ -97,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659872616790</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Datasource.java, mise en place de la methode d'affichage de la liste artiste et ajout de la metho e.printStackTrace() pour simplifier le débogage.">
+      <created>1659875858474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659875858474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +123,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ajout de la librairie sqlite jdbc" />
     <MESSAGE value="Mise en place de la classe Datasource.java qui comprend les methodes de gestion de la bd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en place de la classe Datasource.java qui comprend les methodes de gestion de la bd" />
+    <MESSAGE value="Datasource.java, mise en place de la methode d'affichage de la liste artiste et ajout de la metho e.printStackTrace() pour simplifier le débogage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Datasource.java, mise en place de la methode d'affichage de la liste artiste et ajout de la metho e.printStackTrace() pour simplifier le débogage." />
   </component>
 </project>
