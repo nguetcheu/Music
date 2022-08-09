@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3f93e5-8f95-4e3c-b313-d918fa39d1e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/dominique/model/SongArtist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/dominique/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/dominique/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/dominique/model/Datasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/dominique/model/Datasource.java" afterDir="false" />
@@ -41,7 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/nguet/Documents/Tuto personnel/Music/sqlite-jdbc-3.39.2.0.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
@@ -80,7 +80,10 @@
       <option name="presentableId" value="Default" />
       <updated>1659869984266</updated>
       <workItem from="1659869986461" duration="6808000" />
-      <workItem from="1659897950139" duration="5766000" />
+      <workItem from="1659897950139" duration="7540000" />
+      <workItem from="1659930832829" duration="327000" />
+      <workItem from="1659932136544" duration="48000" />
+      <workItem from="1660048040538" duration="3423000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la librairie sqlite jdbc">
       <created>1659870758328</created>
@@ -110,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659901122181</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajout de la classe SongArtist.java pour faciliter la recherche via la version 2">
+      <created>1659904189696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659904189696</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +143,7 @@
     <MESSAGE value="Mise en place de la classe Datasource.java qui comprend les methodes de gestion de la bd" />
     <MESSAGE value="Datasource.java, mise en place de la methode d'affichage de la liste artiste et ajout de la metho e.printStackTrace() pour simplifier le débogage." />
     <MESSAGE value="Implementation de la metode de recherche version 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation de la metode de recherche version 1" />
+    <MESSAGE value="Ajout de la classe SongArtist.java pour faciliter la recherche via la version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la classe SongArtist.java pour faciliter la recherche via la version 2" />
   </component>
 </project>

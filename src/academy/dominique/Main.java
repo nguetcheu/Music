@@ -2,6 +2,7 @@ package academy.dominique;
 
 import academy.dominique.model.Artist;
 import academy.dominique.model.Datasource;
+import academy.dominique.model.SongArtist;
 
 import java.util.List;
 
@@ -23,12 +24,25 @@ public class Main {
             System.out.println("ID = " + artist.getId() + ", Name = " + artist.getName());
         }
 
-        List<String> albumsForArtist = datasource.queryAlbumsForArtist("Ping Floyd",Datasource.ORDER_BY_ASC);
+        List<String> albumsForArtist = datasource.queryAlbumsForArtist("Carole King",Datasource.ORDER_BY_ASC);
 
         for (String album : albumsForArtist){
             System.out.println(album);
         }
 
+        List<SongArtist> songArtists = datasource.queryArtistsForSong("Heartless",Datasource.ORDER_BY_ASC);
+        if (songArtists == null){
+            System.out.println("Couldn't find the artist for the song");
+            return;
+        }
+
+        for (SongArtist artist : songArtists){
+            System.out.println("Artist name = "+artist.getArtistName() +
+                               " Album name = "+ artist.getAlbumName() +
+                                " Track name ="+artist.getTrack());
+        }
+
+        datasource.querySongsMetadata();
         datasource.close();
     }
 }
